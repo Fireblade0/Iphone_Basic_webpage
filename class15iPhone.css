@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy Light;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+#nav{
+    height: 45px;
+    width: 100%;
+    background-color:rgb(249, 246, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+#nav h5{
+    color:rgb(62, 62, 62) ;
+   /* Yeh bhi kr sakte hai*/
+    /* margin-left:15px ;
+    margin-right: 15px;*/
+}
+#nav i{
+    color:rgb(62, 62, 62)  ;
+}
+#nav2{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding: 20px;
+}
+#nav2 img
+{
+    height: 50px;
+    width: 50px;
+}
+#nav22{
+    height: 20px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#nav22 h5{
+    font-weight: 50xpx;
+    font-size: 12px;
+    position: relative;
+    top: 1%;
+}
+#nav3{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(243, 242, 242);
+}
+#nav3 p {
+    position: relative;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+}
+#nav3 a{
+    text-decoration: none;
+    color: royalblue;
+}
+#nav4{
+    height: 10%;
+    width: 25%;
+    background-image: url(https://www.apple.com/v/iphone/home/bp/images/overview/hero/headline_titanium__cj5ay941qj6u_small_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+    top: 62%;
+    left: 36%; 
+}
+h6{
+    color: orangered;
+    position: absolute;
+    top: 49%;
+    left: 48%;
+    font-size: 12px;
+}
+h2{
+    color: rgb(165, 162, 162);
+    position: absolute;
+    top: 54%;
+    left: 43%;
+}
+h3{
+    color: #fff;
+    position:absolute;
+    top: 73%;
+    left: 43%;
+}
+h4{
+    color: #5d5c5c;
+    position:absolute;
+    top: 80%;
+    left:35% ;
+    font-size: 20px;
+}
+button{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 9px 19px;
+    background-color:rgb(51, 132, 232);
+    color: azure;
+    border: none;
+    border-radius: 28px;
+    font-size: 15px;
+
+}
